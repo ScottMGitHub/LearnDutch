@@ -1,6 +1,8 @@
 var wordList = document.getElementsByClassName("word-list-wrapper-body")[0];
+
+// Table
 let content = '';
-data.forEach(word => {
+onregelmatigeWerkwoorden.forEach(word => {
     content += `<div class="word-row">`;
     word.forEach(wordTense => {
         content += `<div class="word-cell">${wordTense}</div>`;
@@ -8,3 +10,4 @@ data.forEach(word => {
     content += `</div>`;
 });
 wordList.innerHTML = content;
+

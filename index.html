@@ -6,38 +6,43 @@
     <meta name="keywords" content="Dutch">
     <meta name="author" content="Scott Murray">
     <link rel="stylesheet" href="styles/main.css" />
-    <script src="data/onregelmatige-werkwoorden.js"></script>
-    
 </head>
 <body>
     <header>
         <h1>Onregelmatige Werkwoorden</h1>
     </header>
     <main>
-        <div class="question-wrapper">
-            <p>Question</p>
-        </div>   
-        <div class="answer-wrapper">
-            <input id="answer" class="answer-field" type="text"/>
-            <div class="result">Yes/No</div>
-        </div>
-        <div class="submit-wrapper">
-            <input type="submit" value="submit">
-            <button>hint</button>
-        </div>
-        <div class="word-list-wrapper">
-            <div class="word-row">
-                <div class="word-cell">Infinitief</div>
-                <div class="word-cell">Imperfectum</div>
-                <div class="word-cell">Imperfectum Pluralis</div>
-                <div class="word-cell">Perfectum</div>
-                <div class="word-cell">hebben/zijn</div>
+        <div class="quiz-wrapper">
+            <div class="question-wrapper">
+                <p>Vul de juiste vorm van het werkwoord in.</p>
+                <p class="question-word"></p>
+                <p class="question-tense"></p>
+            </div>   
+            <div class="answer-wrapper">
+                <input id="answer" class="answer-field" type="text"/>
+                <div class="result"></div>
             </div>
-            <div class="word-list-wrapper-body">
+            <div class="submit-wrapper">
+                <input type="submit" value="submit" onclick="checkAnswer()">
+            </div>
+        </div>
 
+        <div class="word-list-wrapper">
+            <div class="word-list-wrapper-header">
+                <div class="word-row">
+                    <div class="word-cell">Infinitief</div>
+                    <div class="word-cell">Imperfectum</div>
+                    <div class="word-cell">Imperfectum Pluralis</div>
+                    <div class="word-cell">Perfectum</div>
+                    <div class="word-cell">hebben/zijn</div>
+                </div>
             </div>
+            <div class="word-list-wrapper-body"></div>
         </div>
     </main>
+    <script src="data/onregelmatigeWerkwoorden.js"></script>
+    <script src="data/onregelmatigeWerkwoordenDataKey.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/quiz.js"></script>
 </body>
 </html>

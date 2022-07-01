@@ -1,4 +1,4 @@
- const data = [
+ const onregelmatigeWerkwoorden = [
         ["bakken","bakte","bakten","gebakken","hebben"],
         ["bederven","bedierf","bedierven","bedorven","hebben/zijn"],
         ["bedriegen","bedroog","bedrogen","bedrogen","hebben"],
@@ -90,7 +90,7 @@
         ["snijden","sneed","sneden","gesneden","hebben"],
         ["snuiten","snoot","snoten","gesnoten","hebben"],
         ["snuiven","snoof","snoven","gesnoven","hebben"],
-        ["spijten","speet","","","gespeten","het/hebben"],
+        ["spijten","speet","speten","gespeten","het/hebben"],
         ["spreken","sprak","spraken","gesproken","hebben"],
         ["springen","sprong","sprongen","gesprongen","zijn/hebben"],
         ["spuiten","spoot","spoten","gespoten","hebben"],
@@ -121,7 +121,7 @@
         ["vliegen","vloog","vlogen","gevlogen","zijn/hebben"],
         ["vouwen","vouwde","vouwden","gevouwen","hebben"],
         ["vragen","vroeg","vroegen","gevraagd","hebben"],
-        ["vriezen","vroor","","gevroren","het/hebben"],
+        ["vriezen","vroor","vroren","gevroren","het/hebben"],
         ["wassen","waste","wasten","gewassen","zijn/hebben"],
         ["wegen","woog","wogen","gewogen","hebben"],
         ["werpen","wierp","wierpen","geworpen","hebben"],
@@ -140,7 +140,6 @@
         ["zitten","zat","zaten","gezeten","hebben"],
         ["zoeken","zocht","zochten","gezocht","hebben"],
         ["zuigen","zoog","zogen","gezogen","hebben"],
-        ["zullen","zou","zouden",""],
         ["zwemmen","zwom","zwommen","gezwommen","zijn/hebben"],
         ["zwijgen","zweeg","zwegen","gezwegen","hebben"]
 ];
