@@ -11,3 +11,7 @@ onregelmatigeWerkwoorden.forEach(word => {
 });
 wordList.innerHTML = content;
 
+window.onload = (event) => {
+    refresh();
+}
+

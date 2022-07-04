@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #008b8b;
-  color: efefef;
+  color: #efefef;
   padding: 5px 0;
 }
 
@@ -44,15 +44,55 @@ main .quiz-wrapper .question-wrapper p.question-tense {
 main .quiz-wrapper .answer-wrapper .answer-field {
   display: inline-block;
   padding: 5px;
-  font-weight: 16px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 main .quiz-wrapper .answer-wrapper .result {
   display: inline-block;
+  font-weight: bold;
+}
+
+main .quiz-wrapper .answer-wrapper .result .result-success {
+  color: green;
+}
+
+main .quiz-wrapper .answer-wrapper .result .result-fail {
+  color: red;
 }
 
 main .quiz-wrapper .submit-wrapper {
   margin-top: 20px;
+}
+
+main .quiz-wrapper .submit-wrapper .check-answer-button {
+  border-radius: 5px;
+  background-color: #008b8b;
+  border-radius: 7px;
+  color: white;
+  border: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+main .quiz-wrapper .submit-wrapper .check-answer-button:hover {
+  opacity: 0.9;
+}
+
+main .quiz-wrapper .submit-wrapper .refresh-button {
+  border-radius: 5px;
+  background-color: #707070;
+  border-radius: 7px;
+  color: white;
+  border: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+main .quiz-wrapper .submit-wrapper .refresh-button:hover {
+  opacity: 0.9;
 }
 
 main .word-list-wrapper {

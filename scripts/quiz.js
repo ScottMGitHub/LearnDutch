@@ -1,22 +1,32 @@
-var randomQuestionWord = onregelmatigeWerkwoorden[Math.floor(Math.random()*onregelmatigeWerkwoorden.length)];
+let answerValue = "";
 
-// get random tense, other than first tense (infinitief)
-var randomTense = Math.floor(Math.random()*4);
-randomTense = randomTense === 0 ? randomTense + 1 : randomTense;
+const refresh = () => {
+    var randomQuestionWord = onregelmatigeWerkwoorden[Math.floor(Math.random()*onregelmatigeWerkwoorden.length)];
 
-var randomTenseValue = onregelmatigeWerkwoordenDataKey[randomTense];
-var answerValue = randomQuestionWord[randomTense];
+    // get random tense, other than first tense (infinitief)
+    var randomTense = Math.floor(Math.random()*4);
+    randomTense = randomTense === 0 ? randomTense + 1 : randomTense;
 
-console.log(randomQuestionWord);
+    var randomTenseValue = onregelmatigeWerkwoordenDataKey[randomTense];
+    answerValue = randomQuestionWord[randomTense];
 
-var question = document.getElementsByClassName("question-word")[0];
-question.innerHTML = `${randomQuestionWord[0]}`;
+    console.log(randomQuestionWord);
 
-var tense = document.getElementsByClassName("question-tense")[0];
-tense.innerHTML = randomTenseValue;
+    var question = document.getElementsByClassName("question-word")[0];
+    question.innerHTML = `${randomQuestionWord[0]}`;
+
+    var tense = document.getElementsByClassName("question-tense")[0];
+    tense.innerHTML = randomTenseValue;
+
+    // Clear
+    var answer = document.getElementById("answer");
+    var result = document.getElementsByClassName("result")[0];
+    answer.value = "";
+    result.innerHTML = "";
+}
 
 const checkAnswer = () => {
     var answer = document.getElementById("answer").value;
     var result = document.getElementsByClassName("result")[0];
-    result.innerHTML = answerValue == answer ? "Juist" : "Niet correct";
+    result.innerHTML = answerValue == answer ? "<div class=\"result-success\">Juist!</div>" : "<div class=\"result-fail\">Niet correct</div>";
 }
