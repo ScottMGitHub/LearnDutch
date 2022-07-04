@@ -1,0 +1,1 @@
+ const onregelmatigeWerkwoordenDataKey = ["Infinitief","Imperfectum","Imperfectum Pluralis","Perfectum","hebben/zijn"];
