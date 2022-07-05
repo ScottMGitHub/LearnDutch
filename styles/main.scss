@@ -52,6 +52,7 @@ main{
         }
         
         .answer-wrapper {
+            
             .answer-field {
                 display:inline-block;
                 padding:5px;
@@ -67,12 +68,17 @@ main{
             .result {
                 display:inline-block;
                 font-weight: bold;
+                @media only screen and (max-width: $mobile) {
+                    height: 35px;
+                    line-height: 30px;
+                }
                 .result-success {
                     color:green;
                 }
                 .result-fail {
                     color: red;
                 }
+                
             }
         }
         
@@ -81,6 +87,7 @@ main{
             @media only screen and (max-width: $mobile) {
                 display: flex;
                 flex-wrap: nowrap;
+                margin-top: 0;
             }
             
             .check-answer-button {
