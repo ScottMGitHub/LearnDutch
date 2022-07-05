@@ -17,9 +17,21 @@ header h1 {
   padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  header h1 {
+    width: 90%;
+  }
+}
+
 main {
   width: 80%;
   margin: 20px auto 50px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 90%;
+  }
 }
 
 main .quiz-wrapper .question-wrapper p {
@@ -41,6 +53,14 @@ main .quiz-wrapper .question-wrapper p.question-tense {
   margin-top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  main .quiz-wrapper .answer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 main .quiz-wrapper .answer-wrapper .answer-field {
   display: inline-block;
   padding: 5px;
@@ -48,6 +68,13 @@ main .quiz-wrapper .answer-wrapper .answer-field {
   font-weight: bold;
   font-size: 16px;
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  main .quiz-wrapper .answer-wrapper .answer-field {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 main .quiz-wrapper .answer-wrapper .result {
@@ -67,6 +94,16 @@ main .quiz-wrapper .submit-wrapper {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  main .quiz-wrapper .submit-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 main .quiz-wrapper .submit-wrapper .check-answer-button {
   border-radius: 5px;
   background-color: #008b8b;
@@ -81,6 +118,13 @@ main .quiz-wrapper .submit-wrapper .check-answer-button:hover {
   opacity: 0.9;
 }
 
+@media only screen and (max-width: 600px) {
+  main .quiz-wrapper .submit-wrapper .check-answer-button {
+    width: 48%;
+    margin-right: 2%;
+  }
+}
+
 main .quiz-wrapper .submit-wrapper .refresh-button {
   border-radius: 5px;
   background-color: #707070;
@@ -93,6 +137,13 @@ main .quiz-wrapper .submit-wrapper .refresh-button {
 
 main .quiz-wrapper .submit-wrapper .refresh-button:hover {
   opacity: 0.9;
+}
+
+@media only screen and (max-width: 600px) {
+  main .quiz-wrapper .submit-wrapper .refresh-button {
+    width: 48%;
+    margin-left: 2%;
+  }
 }
 
 main .word-list-wrapper {
@@ -129,5 +180,11 @@ main .word-list-wrapper .word-row .word-cell {
   width: 20%;
   font-size: 16px;
   padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  main .word-list-wrapper .word-row .word-cell {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
