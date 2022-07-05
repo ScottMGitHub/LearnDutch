@@ -1,4 +1,4 @@
-let answerValue = "";
+let expectedAnswer = "";
 
 const refresh = () => {
     var randomQuestionWord = onregelmatigeWerkwoorden[Math.floor(Math.random()*onregelmatigeWerkwoorden.length)];
@@ -8,7 +8,7 @@ const refresh = () => {
     randomTense = randomTense === 0 ? randomTense + 1 : randomTense;
 
     var randomTenseValue = onregelmatigeWerkwoordenDataKey[randomTense];
-    answerValue = randomQuestionWord[randomTense];
+    expectedAnswer = randomQuestionWord[randomTense];
 
     console.log(randomQuestionWord);
 
@@ -28,5 +28,5 @@ const refresh = () => {
 const checkAnswer = () => {
     var answer = document.getElementById("answer").value;
     var result = document.getElementsByClassName("result")[0];
-    result.innerHTML = answerValue == answer ? "<div class=\"result-success\">Juist!</div>" : "<div class=\"result-fail\">Niet correct</div>";
+    result.innerHTML = expectedAnswer == answer.toLowerCase() ? "<div class=\"result-success\">Juist!</div>" : "<div class=\"result-fail\">Niet correct</div>";
 }
