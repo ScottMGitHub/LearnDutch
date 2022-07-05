@@ -52,9 +52,6 @@ main{
         }
         
         .answer-wrapper {
-            @media only screen and (max-width: $mobile) {
-                display: flex;
-            }
             .answer-field {
                 display:inline-block;
                 padding:5px;
