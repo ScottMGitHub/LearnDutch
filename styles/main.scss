@@ -1,7 +1,7 @@
 $page-width: 80%;
 $page-width-mobile: 90%;
 $primary-color: #008b8b;
-$mobile: 600px;
+$mobile: 800px;
 
 body {
     top: 0;
@@ -14,6 +14,7 @@ header {
     color:#efefef;
     padding: 5px 0;
     height: 50px;
+
     .inner-wrapper{
         width: $page-width;
         margin: 0 auto;
@@ -24,18 +25,34 @@ header {
     h1 {
         padding: 0;
         margin: 0;
-        width: 50%;
         float:left;
         line-height: 50px;
+        @media only screen and (max-width: $mobile) {
+            width: $page-width-mobile;
+            line-height: 25px;
+            white-space: nowrap;
+            font-size: 18px;
+        }
     }
     .navigation{
         float: right;
         line-height: 50px;
+        
+        @media only screen and (max-width: $mobile) {
+            float:none;
+            line-height: unset;
+        }
+
         a {
             text-decoration: none;
-            color: white;
+            color: #ececec;
             font-weight: bold;
             margin-left: 15px;
+            @media only screen and (max-width: $mobile) {
+                font-size: 10px;
+                margin-right: 15px;
+                margin-left: 0;
+            }
             &:hover{
                 color:black;
             }
