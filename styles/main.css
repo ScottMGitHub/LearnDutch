@@ -9,18 +9,42 @@ header {
   background-color: #008b8b;
   color: #efefef;
   padding: 5px 0;
+  height: 50px;
 }
 
-header h1 {
+header .inner-wrapper {
   width: 80%;
   margin: 0 auto;
-  padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
-  header h1 {
+  header .inner-wrapper {
     width: 90%;
   }
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  float: left;
+  line-height: 50px;
+}
+
+header .navigation {
+  float: right;
+  line-height: 50px;
+}
+
+header .navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+header .navigation a:hover {
+  color: black;
 }
 
 main {
@@ -67,6 +91,14 @@ main .quiz-wrapper .answer-wrapper .answer-field {
     width: 100%;
     margin-right: 0;
   }
+}
+
+main .quiz-wrapper .answer-wrapper .multiple-choice-options-wrapper {
+  margin-top: 10px;
+}
+
+main .quiz-wrapper .answer-wrapper .multiple-choice-options-wrapper label {
+  margin-left: 5px;
 }
 
 main .quiz-wrapper .answer-wrapper .result {
