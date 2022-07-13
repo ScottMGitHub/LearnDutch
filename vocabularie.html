@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Learn Dutch | Onregelmatige Werkwoorden</title>
+    <title>Learn Dutch | Vocaularie</title>
     <meta charset="UTF-8">
     <meta name="description" content="Learn Dutch">
     <meta name="keywords" content="Dutch">
@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="inner-wrapper">
-            <h1>Onregelmatige Werkwoorden</h1>
+            <h1>Vocabularie</h1>
             <div class="navigation">
                 <a href="index.html">Onregelmatige Werkwoorden</a>
                 <a href="vocabularie.html">Vocabularie</a>
@@ -21,35 +21,30 @@
     <main>
         <div class="quiz-wrapper">
             <div class="question-wrapper">
-                <p>Vul de juiste vorm van het werkwoord in.</p>
+                <p>Kies het juiste vertaling.</p>
                 <p class="question-word"></p>
-                <p class="question-tense"></p>
             </div>   
             <div class="answer-wrapper">
-                <input id="answer" class="answer-field" type="text"/>
+                <div class="multiple-choice-options-wrapper"> </div>
                 <div class="result"></div>
             </div>
             <div class="submit-wrapper">
                 <input type="submit" value="controleren" class="check-answer-button" onclick="checkAnswer()">
-                <input type="submit" value="refresh" class="refresh-button" onclick="refresh()">
+                <input type="submit" value="nieuw word" class="refresh-button" onclick="refresh()">
             </div>
         </div>
 
-        <div class="word-list-wrapper">
+        <!-- <div class="word-list-wrapper">
             <div class="word-list-wrapper-header">
                 <div class="word-row">
                     <div class="word-cell">Infinitief</div>
                     <div class="word-cell">Imperfectum</div>
-                    <div class="word-cell">Imperfectum Pluralis</div>
-                    <div class="word-cell">Perfectum</div>
-                    <div class="word-cell">hebben/zijn</div>
                 </div>
             </div>
             <div class="word-list-wrapper-body"></div>
-        </div>
+        </div> -->
     </main>
-    <script src="data/onregelmatigeWerkwoorden.js"></script>
-    <script src="data/onregelmatigeWerkwoordenDataKey.js"></script>
-    <script src="scripts/onrgelmatige-werkwoord-quiz.js"></script>
+    <script src="data/vocabularie.js"></script>
+    <script src="scripts/vocabularie-quiz.js"></script>
 </body>
 </html>

@@ -30,3 +30,21 @@ const checkAnswer = () => {
     var result = document.getElementsByClassName("result")[0];
     result.innerHTML = expectedAnswer == answer.toLowerCase() ? "<div class=\"result-success\">Juist!</div>" : "<div class=\"result-fail\">Niet correct</div>";
 }
+
+
+var wordList = document.getElementsByClassName("word-list-wrapper-body")[0];
+
+// Table
+let content = '';
+onregelmatigeWerkwoorden.forEach(word => {
+    content += `<div class="word-row">`;
+    word.forEach(wordTense => {
+        content += `<div class="word-cell">${wordTense}</div>`;
+    });
+    content += `</div>`;
+});
+wordList.innerHTML = content;
+
+window.onload = (event) => {
+    refresh();
+}
