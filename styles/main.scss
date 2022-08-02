@@ -201,4 +201,25 @@ main{
             }
         }
     }
+
+    .phrase-wrapper {
+        table{
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid $primary-color;
+            border-spacing:0;
+            th {
+                background-color: $primary-color;
+                border: 1px solid $primary-color;
+                width: 50%; 
+                padding: 5px; 
+            }
+            td {
+                text-align: center;
+                border: 1px solid #ececec;
+                padding: 5px; 
+
+            }
+        }
+    }
 }

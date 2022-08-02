@@ -242,4 +242,24 @@ main .word-list-wrapper .word-row .word-cell {
     font-size: 12px;
   }
 }
+
+main .phrase-wrapper table {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #008b8b;
+  border-spacing: 0;
+}
+
+main .phrase-wrapper table th {
+  background-color: #008b8b;
+  border: 1px solid #008b8b;
+  width: 50%;
+  padding: 5px;
+}
+
+main .phrase-wrapper table td {
+  text-align: center;
+  border: 1px solid #ececec;
+  padding: 5px;
+}
 /*# sourceMappingURL=main.css.map */
