@@ -16,7 +16,7 @@ const refresh = () => {
     question.innerHTML = `${randomQuestionWord[0]}`;
 
     var tense = document.getElementsByClassName("question-tense")[0];
-    tense.innerHTML = randomTenseValue;
+    tense.innerHTML = `(${randomTenseValue})`;
 
     // Clear
     var answer = document.getElementById("answer");

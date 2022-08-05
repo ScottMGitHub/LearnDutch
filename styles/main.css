@@ -87,16 +87,16 @@ main .quiz-wrapper .question-wrapper p {
   margin-bottom: 20px;
 }
 
-main .quiz-wrapper .question-wrapper p.question-word {
+main .quiz-wrapper .question-wrapper p .question-word {
   font-size: 18px;
   margin-bottom: 0;
   color: #1f1e1e;
   margin-top: 0;
 }
 
-main .quiz-wrapper .question-wrapper p.question-tense {
+main .quiz-wrapper .question-wrapper p .question-tense {
   color: #008b8b;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 0;
 }
 
