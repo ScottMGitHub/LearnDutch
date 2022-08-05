@@ -74,16 +74,16 @@ main{
                 color:#707070;
                 margin-bottom:20px;
 
-                &.question-word{
+                .question-word{
                     font-size: 18px;
                     margin-bottom:0;
                     color:#1f1e1e;
                     margin-top:0;
                 }
 
-                &.question-tense {
+                .question-tense {
                     color:$primary-color;
-                    font-size:12px;
+                    font-size:18px;
                     margin-top:0;
                 }
             }

@@ -4,22 +4,22 @@ const refresh = () => {
 
     // Get random word
     var randomQuestionWord = vocaularieWoorden[Math.floor(Math.random()*vocaularieWoorden.length)];
-    expectedAnswer = randomQuestionWord[1];
+    expectedAnswer = randomQuestionWord[0];
 
     // Get random answers
     var possibleAnswers = generatePossibleAnswers(randomQuestionWord);
 
     // set question
     var questionWord = document.getElementsByClassName("question-word")[0];
-    questionWord.innerHTML = randomQuestionWord[0];
+    questionWord.innerHTML = randomQuestionWord[1];
 
     // set possible answers
     var possibleAnswersWrapper = document.getElementsByClassName("multiple-choice-options-wrapper")[0];
     possibleAnswersWrapper.innerHTML = "";
     for(var i = 0; i <= possibleAnswers.length - 1; i++) {
         if(possibleAnswers[i] != 'undefined') {
-            possibleAnswersWrapper.innerHTML += `<input type="radio" id="${possibleAnswers[i][1]}" name="translation-answer" value="${possibleAnswers[i][1]}">`;
-            possibleAnswersWrapper.innerHTML += `<label for="html">${possibleAnswers[i][1]}</label><br/>`;
+            possibleAnswersWrapper.innerHTML += `<input type="radio" id="${possibleAnswers[i][0]}" name="translation-answer" value="${possibleAnswers[i][0]}">`;
+            possibleAnswersWrapper.innerHTML += `<label for="html">${possibleAnswers[i][0]}</label><br/>`;
         }
     }
 
