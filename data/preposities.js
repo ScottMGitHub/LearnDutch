@@ -103,7 +103,7 @@ const preposities = [
     ["getrouwd", "sinds", "Ze zijn al 10 jaar getrouwd sinds ze elkaar hebben ontmoet op vakantie.", "They have been married for 10 years since they met each other on holiday."],
     ["werken", "sinds", "Hij werkt bij dat bedrijf sinds zijn afstuderen.", "He has been working at that company since he graduated."],
     ["samen", "voor", "Als je samen zorgt voor je kind.", "If you take care of your child together."],
-    ["ontkomen", "er niet aan", "Dan ontkom je er niet aan dat je ook de minder leuke dingen moet doen.", "You can't avoid having to do the less enjoyable things."],
+    ["ontkomen", "aan", "Dan ontkom je er niet aan dat je ook de minder leuke dingen moet doen.", "You can't avoid having to do the less enjoyable things."],
     ["wandelen", "met", "Je kunt niet alleen maar gezellig wandelen met je kind.", "You can't just go for a pleasant walk with your child."],
     ["verantwoordelijk", "voor", "Ik voel me ook verantwoordelijk voor het huishouden.", "I also feel responsible for the household."],
     ["overtuigd", "van", "Hoewel mijn partner daar niet van overtuigd is.", "Although my partner is not convinced of that."],
