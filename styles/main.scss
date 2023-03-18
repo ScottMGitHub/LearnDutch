@@ -64,9 +64,11 @@ header {
 main{
     width: $page-width;
     margin: 20px auto 50px auto;
+
     @media only screen and (max-width: $mobile) {
         width: $page-width-mobile;
     }
+
     .quiz-wrapper {
         .question-wrapper{
             p {
@@ -86,9 +88,11 @@ main{
                     font-size:18px;
                     margin-top:0;
                 }
+
+              
             }
         }
-        
+
         .answer-wrapper {
             .answer-field {
                 display:inline-block;
@@ -165,6 +169,21 @@ main{
                     margin-left:2%;
                 }
             }
+        }
+    }
+
+    .prepositie-wrapper{
+        margin-top:20px;
+        width: 30%;
+        display: inline-block;
+        @media only screen and (max-width: $mobile) {
+            width: 100%;
+        }
+        h3{
+            color:$primary-color;
+        }
+        p{
+            color: #707070;
         }
     }
 
