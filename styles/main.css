@@ -201,6 +201,26 @@ main .quiz-wrapper .submit-wrapper .refresh-button:hover {
   }
 }
 
+main .prepositie-wrapper {
+  margin-top: 20px;
+  width: 30%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  main .prepositie-wrapper {
+    width: 100%;
+  }
+}
+
+main .prepositie-wrapper h3 {
+  color: #008b8b;
+}
+
+main .prepositie-wrapper p {
+  color: #707070;
+}
+
 main .word-list-wrapper {
   margin: 50px auto 50px auto;
   border: 1px solid #222222;

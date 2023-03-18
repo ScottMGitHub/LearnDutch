@@ -1,17 +1,17 @@
 <html translate="no">
 <head>
-    <title>Learn Dutch | Vocaularie</title>
+    <title>Learn Dutch | Preposities</title>
     <meta charset="UTF-8">
     <meta name="description" content="Learn Dutch">
     <meta name="keywords" content="Dutch">
     <meta name="author" content="Scott Murray">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width - initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
     <header>
         <div class="inner-wrapper">
-            <h1>Vocabularie</h1>
+            <h1>Preposities</h1>
             <div class="navigation">
                 <a href="index.html">Onregelmatige Werkwoorden</a>
                 <!-- <a href="vocabularie.html">Vocabularie</a> -->
@@ -24,30 +24,38 @@
     <main>
         <div class="quiz-wrapper">
             <div class="question-wrapper">
-                <p>Kies het juiste vertaling.</p>
-                <p><span class="question-word"></span></p>
+                <p>Vul de juiste prepositie (voorzetsel) in.</p>
+                <p><span class="question-word"></span> <br><span class="question-tense"></span></p>
             </div>   
             <div class="answer-wrapper">
-                <div class="multiple-choice-options-wrapper"> </div>
+                <input id="answer" class="answer-field" type="text"/>
                 <div class="result"></div>
             </div>
             <div class="submit-wrapper">
                 <input type="submit" value="controleren" class="check-answer-button" onclick="checkAnswer()">
-                <input type="submit" value="nieuw word" class="refresh-button" onclick="refresh()">
+                <input type="submit" value="refresh" class="refresh-button" onclick="refresh()">
             </div>
         </div>
+        <div class="prepositie-wrapper">
+            <h3>Alle preposities</h3>
+            <p>aan - achter - af - behalve - beneden - bij - binnen - boven - buiten - door - in - langs - met - na - naar - naast - 
+            om - onder - op - over - per - sinds - te - tegen - tot - tussen - uit - van - via - volgens - voor - zonder
+            </p>
+        </div>
 
-        <!-- <div class="word-list-wrapper">
+        <div class="word-list-wrapper">
             <div class="word-list-wrapper-header">
                 <div class="word-row">
-                    <div class="word-cell">Infinitief</div>
-                    <div class="word-cell">Imperfectum</div>
+                    <div class="word-cell">Preposities</div>
+                    <div class="word-cell">Example</div>
+                    <div class="word-cell">Translation</div>
                 </div>
             </div>
             <div class="word-list-wrapper-body"></div>
-        </div> -->
+        </div>
     </main>
-    <script src="data/vocabularie.js"></script>
-    <script src="scripts/vocabularie-quiz.js"></script>
+    <script src="data/preposities.js"></script>
+    <script src="data/dataKeys.js"></script>
+    <script src="scripts/prepositie-quiz.js"></script>
 </body>
 </html>
