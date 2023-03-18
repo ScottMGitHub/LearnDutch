@@ -13,7 +13,6 @@ const refresh = () => {
     var translation = document.getElementsByClassName("question-tense")[0];
     translation.innerHTML = `(${randomExample[3]})`;
 
-
     // Clear
     var answer = document.getElementById("answer");
     var result = document.getElementsByClassName("result")[0];
@@ -31,6 +30,7 @@ var wordList = document.getElementsByClassName("word-list-wrapper-body")[0];
 
 // Table
 let content = '';
+preposities.sort((a, b) => a[1].localeCompare(b[1]));
 preposities.forEach(prepositionExample => {
     console.log(prepositionExample)
     content += `<div class="word-row">`;
