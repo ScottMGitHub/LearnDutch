@@ -283,4 +283,87 @@ main .phrase-wrapper table td {
   border: 1px solid #ececec;
   padding: 5px;
 }
+
+main .flash-cards-wrapper {
+  margin-top: 20px;
+  width: 30%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  main .flash-cards-wrapper {
+    width: 100%;
+  }
+}
+
+main .flash-cards-wrapper .card {
+  color: white;
+  width: 350px;
+  height: 180px;
+  text-align: center;
+}
+
+main .flash-cards-wrapper .card .card-front {
+  background-color: #008b8b;
+  border-radius: 10px;
+  padding: 20px 0 35px;
+  -webkit-box-shadow: black 2px 2px 5px;
+          box-shadow: black 2px 2px 5px;
+}
+
+main .flash-cards-wrapper .card .card-back {
+  background-color: #4B0082;
+  border-radius: 10px;
+  padding: 20px 0 35px;
+  -webkit-box-shadow: black 2px 2px 5px;
+          box-shadow: black 2px 2px 5px;
+}
+
+main .flash-cards-wrapper .card .hide {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  main .flash-cards-wrapper .card {
+    width: 100%;
+  }
+}
+
+main .flash-cards-wrapper .card h2 {
+  padding: 0;
+  margin: 0 10px;
+  font-size: 40px;
+}
+
+main .flash-cards-wrapper .card p {
+  padding: 0;
+  margin: 0;
+}
+
+main .flash-cards-wrapper .card p.sentence {
+  margin: 25px 15px 0;
+  font-style: italic;
+}
+
+main .flash-cards-wrapper .refresh-button {
+  border-radius: 5px;
+  background-color: #707070;
+  border-radius: 7px;
+  color: white;
+  border: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: 60px;
+  width: 350px;
+}
+
+main .flash-cards-wrapper .refresh-button:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 800px) {
+  main .flash-cards-wrapper .refresh-button {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
