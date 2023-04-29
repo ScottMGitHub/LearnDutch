@@ -287,7 +287,7 @@ main .phrase-wrapper table td {
 main .flash-cards-wrapper {
   margin-top: 20px;
   width: 30%;
-  display: inline-block;
+  position: relative;
 }
 
 @media only screen and (max-width: 800px) {
@@ -296,14 +296,17 @@ main .flash-cards-wrapper {
   }
 }
 
-main .flash-cards-wrapper .card {
+main .flash-cards-wrapper .card-wrapper {
+  min-height: 250px;
+}
+
+main .flash-cards-wrapper .card-wrapper .card {
   color: white;
   width: 350px;
-  height: 180px;
   text-align: center;
 }
 
-main .flash-cards-wrapper .card .card-front {
+main .flash-cards-wrapper .card-wrapper .card .card-front {
   background-color: #008b8b;
   border-radius: 10px;
   padding: 20px 0 35px;
@@ -311,7 +314,7 @@ main .flash-cards-wrapper .card .card-front {
           box-shadow: black 2px 2px 5px;
 }
 
-main .flash-cards-wrapper .card .card-back {
+main .flash-cards-wrapper .card-wrapper .card .card-back {
   background-color: #4B0082;
   border-radius: 10px;
   padding: 20px 0 35px;
@@ -319,33 +322,44 @@ main .flash-cards-wrapper .card .card-back {
           box-shadow: black 2px 2px 5px;
 }
 
-main .flash-cards-wrapper .card .hide {
+main .flash-cards-wrapper .card-wrapper .card .hide {
   display: none;
 }
 
 @media only screen and (max-width: 800px) {
-  main .flash-cards-wrapper .card {
+  main .flash-cards-wrapper .card-wrapper .card {
     width: 100%;
   }
 }
 
-main .flash-cards-wrapper .card h2 {
+main .flash-cards-wrapper .card-wrapper .card h2 {
   padding: 0;
   margin: 0 10px;
   font-size: 40px;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  /* Enable automatic hyphenation */
+  overflow-wrap: break-word;
+  /* Fallback option */
 }
 
-main .flash-cards-wrapper .card p {
+main .flash-cards-wrapper .card-wrapper .card p {
   padding: 0;
   margin: 0;
 }
 
-main .flash-cards-wrapper .card p.sentence {
+main .flash-cards-wrapper .card-wrapper .card p.sentence {
   margin: 25px 15px 0;
   font-style: italic;
 }
 
-main .flash-cards-wrapper .refresh-button {
+main .flash-cards-wrapper .submit-wrapper {
+  height: 50px;
+  margin-top: 30px;
+}
+
+main .flash-cards-wrapper .submit-wrapper .refresh-button {
   border-radius: 5px;
   background-color: #707070;
   border-radius: 7px;
@@ -353,16 +367,15 @@ main .flash-cards-wrapper .refresh-button {
   border: 0;
   padding: 8px 15px;
   cursor: pointer;
-  margin-top: 60px;
   width: 350px;
 }
 
-main .flash-cards-wrapper .refresh-button:hover {
+main .flash-cards-wrapper .submit-wrapper .refresh-button:hover {
   opacity: 0.9;
 }
 
 @media only screen and (max-width: 800px) {
-  main .flash-cards-wrapper .refresh-button {
+  main .flash-cards-wrapper .submit-wrapper .refresh-button {
     width: 100%;
   }
 }
