@@ -247,76 +247,89 @@ main{
     .flash-cards-wrapper {
         margin-top:20px;
         width: 30%;
-        display: inline-block;
+        position:relative;
 
         @media only screen and (max-width: $mobile) {
             width: 100%;
         }
 
-        .card {
-            
-            color: white;
-            width: 350px;
-            height: 180px;
-            text-align: center;
+        .card-wrapper {
+            min-height: 250px;
 
-            .card-front {
-                background-color: $primary-color;
-                border-radius:10px;
-                padding: 20px 0 35px;
-                box-shadow: black 2px 2px 5px;
-            }
+            .card {
+                color: white;
+                width: 350px;
+                text-align: center;
 
-            .card-back {
-                background-color: $secondary-color;
-                border-radius:10px;
-                padding: 20px 0 35px;
-                box-shadow: black 2px 2px 5px;
-            }
+                .card-front {
+                    background-color: $primary-color;
+                    border-radius:10px;
+                    padding: 20px 0 35px;
+                    box-shadow: black 2px 2px 5px;
+                }
 
-            .hide {
-                display:none;
-            }
+                .card-back {
+                    background-color: $secondary-color;
+                    border-radius:10px;
+                    padding: 20px 0 35px;
+                    box-shadow: black 2px 2px 5px;
+                }
 
-            @media only screen and (max-width: $mobile) {
-                width: 100%;
-            }
+                .hide {
+                    display:none;
+                }
 
-            h2 {
-                padding:0;
-                margin: 0 10px;
-                font-size: 40px;
-            }
-            p {
-                padding:0;
-                margin:0;
+                @media only screen and (max-width: $mobile) {
+                    width: 100%;
+                }
 
-                &.sentence{
-                    margin: 25px 15px 0;
-                    font-style: italic;
+                h2 {
+                    padding:0;
+                    margin: 0 10px;
+                    font-size: 40px;
+                    hyphens: auto; /* Enable automatic hyphenation */
+                    overflow-wrap: break-word; /* Fallback option */
+                }
+
+                p {
+                    padding:0;
+                    margin:0;
+
+                    &.sentence{
+                        margin: 25px 15px 0;
+                        font-style: italic;
+                    }
                 }
             }
         }
 
-        .refresh-button {
-            border-radius: 5px;
-            background-color: #707070;
-            border-radius: 7px;              
-            color: white;
-            border: 0;
-            padding: 8px 15px;
-            cursor: pointer;
-            margin-top:60px;
-            width: 350px;
+        .submit-wrapper {
+            height: 50px;
+            margin-top:30px;
 
-            &:hover {
-                opacity: 0.9;
-            }
-
-            @media only screen and (max-width: $mobile) {
-                width: 100%;
+            .refresh-button {
+                border-radius: 5px;
+                background-color: #707070;
+                border-radius: 7px;              
+                color: white;
+                border: 0;
+                padding: 8px 15px;
+                cursor: pointer;
+                width: 350px;
+    
+                &:hover {
+                    opacity: 0.9;
+                }
+    
+                @media only screen and (max-width: $mobile) {
+                    width: 100%;
+                }
             }
         }
+
+
+        
+
     }
 
 }

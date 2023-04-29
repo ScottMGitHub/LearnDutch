@@ -4,12 +4,36 @@ const flashCards = [
         ["Botsen", "botste, botsing", "De auto's botsten tegen elkaar"]
     ],
     [
-        ["Rejected", "reject, rejection", "The request was rejected"],
-        ["Afgewezen", "afwijzen, afwijzing", "Het verzoek werd afgewezen"]
+        ["Rejected (thing)", "reject, rejection", "The request was rejected"],
+        ["Afgekeurd", "afkeuren, afkeuring", "Het verzoek werd afgekeurd"]
+    ],
+    [
+        ["Rejected (person)", "reject, rejection", "His job application was rejected"],
+        ["Afgewezen", "afwijzen, afwijzing", "Zijn sollicitatie werd afgewezen"]
     ],
     [
         ["Refused", "refuse, refusal", "The request was refused"],
         ["Geweigerd", "weigeren, weigering", "Het verzoek werd geweigerd"]
+    ],
+    [
+        ["Decrease", "", "The diagram shows a decrease in 2021."],
+        ["Afname", "", "De grafiek laat een afname zien in 2021."]
+    ],
+    [
+        ["Increase", "", "The graph shows an increase in 2021."],
+        ["Toename", "", "De grafiek laat een toename  zien in 2021."]
+    ],
+    [
+        ["The percentage", "", "Men were in the highest percentage."],
+        ["Het percentage", "", "Mannen waren in het hoogste percentage."]
+    ],
+    [
+        ["The bar chart", "", "The bar chart shows an increase an increase in June and a decrease in July."],
+        ["Het staafdiagram", "", "Het staafdiagram toont een stijging in juni en een daling in juli"]
+    ],
+    [
+        ["The pie chart", "", "The pie chart indicates that the highest percentage is women."],
+        ["Het cirkeldiagram", "", "Het cirkeldiagram geeft aan dat het hoogste percentage vrouwen is."]
     ],
     [
         ["Such", "such", "Such problems can be solved by more communication."],
