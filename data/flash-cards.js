@@ -197,7 +197,7 @@ const flashCards = [
     ],
     [
         ["Chopping", "Chopped", "he is busy chopping onions"],
-        ["Uien", "Gehakt", "hij is bezig uien te hakken"]
+        ["Hakken", "Gehakt", "hij is bezig uien te hakken"]
     ],
     [
         ["Frying", "Deep-frying", "he is frying the onions"],
