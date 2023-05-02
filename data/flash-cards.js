@@ -5,11 +5,11 @@ const flashCards = [
     ],
     [
         ["Rejected (thing)", "reject, rejection", "The request was rejected"],
-        ["Afgekeurd", "afkeuren, afkeuring", "Het verzoek werd afgekeurd"]
+        ["Afgekeurd (thing)", "afkeuren, afkeuring", "Het verzoek werd afgekeurd"]
     ],
     [
         ["Rejected (person)", "reject, rejection", "His job application was rejected"],
-        ["Afgewezen", "afwijzen, afwijzing", "Zijn sollicitatie werd afgewezen"]
+        ["Afgewezen (person)", "afwijzen, afwijzing", "Zijn sollicitatie werd afgewezen"]
     ],
     [
         ["Refused", "refuse, refusal", "The request was refused"],
@@ -157,7 +157,19 @@ const flashCards = [
     ],
     [
         ["The stove", "", "There is a pot boiling on the stove"],
-        ["De fornuis", "", "Er staat een pannetje te koken op het fornuis"]
+        ["Het fornuis", "", "Er staat een pannetje te koken op het fornuis"]
+    ],
+    [
+        ["The bread toaster", "", "Put some bread in the bread toaster"],
+        ["De broodrooster", "", "Doe wat brood in de broodrooster"]
+    ],
+    [
+        ["The kettle", "", "Put the kettle on"],
+        ["De ketel", "", "Zet de ketel op"]
+    ],
+    [
+        ["The spatula", "", "Flip it with the spatula"],
+        ["De spatel", "", "Draai het om met de spatel"]
     ],
     [
         ["Pour", "pouring", "Can you pour some water in my glass."],
@@ -286,5 +298,57 @@ const flashCards = [
     [
         ["Spend time", "", "I don't want to spend anymore time on this."],
         ["Tijd besteden", "", "Ik wil hier geen tijd meer aan besteden."]
+    ],
+    [
+        ["Yet", "", "There are more cars being bought every year"],
+        ["Toch", "", "Toch, worden er elk jaar meer auto's gekocht"]
+    ],
+    [
+        ["Confirm", "confirmation", "I will get confirmation"],
+        ["bevestigen", "bevestiging", "Ik zal een bevestiging krijgen"]
+    ],
+    [
+        ["is mine", "", "The dog is mine"],
+        ["is van mij", "", "De hond is van mij"]
+    ],
+    [
+        ["Put petrol in the car", "", "Put petrol in the car"],
+        ["Benzine in de auto doen", "", "Benzine in de auto doen"]
+    ],
+    [
+        ["Pack the shelves.", "", "Pack the bookshelf."],
+        ["Pak de planken in.", "", "Pak de boekenplank in."]
+    ],
+    [
+        ["Write down", "", "Write down the names and numbers"],
+        ["Schrijf op", "", "Schrijf de namen en nummers op"]
+    ],
+    [
+        ["Answer the phone", "", "When someone calls answer the phone"],
+        ["Beantwoord de telefoon", "", "Als iemand belt, neem dan de telefoon op"]
+    ],
+    [
+        ["Open the door", "", "close the door"],
+        ["Open de deur", "", "doe de deur dicht"]
+    ],
+    [
+        ["Turn on the tv", "", "Turn off the tv"],
+        ["Doe de tv aan", "", "Zet de tv uit"]
+    ],
+    [
+        ["Play the song", "", "Pause the song"],
+        ["Speel het liedje", "", "Pauzeer het nummer"]
+    ],
+    [
+        ["Ride the bike", "", ""],
+        ["Rijd op de fiets", "", ""]
+    ],
+    [
+        ["Drive the car", "", "Drive the car to work"],
+        ["De auto rijden", "", "Rijd met de auto naar het werk"]
+    ],
+    [
+        ["Take the train", "", "I took the train to work"],
+        ["Neem de trein", "", "Ik nam de trein naar mijn werk"]
     ]
 ];
