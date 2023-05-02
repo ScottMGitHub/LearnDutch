@@ -264,14 +264,15 @@ main{
                 .card-front {
                     background-color: $primary-color;
                     border-radius:10px;
-                    padding: 20px 0 35px;
+                    padding: 40px 0 40px;
                     box-shadow: black 2px 2px 5px;
+
                 }
 
                 .card-back {
                     background-color: $secondary-color;
                     border-radius:10px;
-                    padding: 20px 0 35px;
+                    padding: 40px 0 40px;
                     box-shadow: black 2px 2px 5px;
                 }
 
@@ -296,7 +297,7 @@ main{
                     margin:0;
 
                     &.sentence{
-                        margin: 25px 15px 0;
+                        margin: 45px 15px 0;
                         font-style: italic;
                     }
                 }
@@ -326,10 +327,6 @@ main{
                 }
             }
         }
-
-
-        
-
     }
 
 }
