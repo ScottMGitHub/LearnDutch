@@ -369,6 +369,18 @@ const flashCards = [
     ],
     [
         ["I'm busy with", "", "I'm busy with something"],
-        ["ik ben bezig met", "", "Ik ben ergens mee bezig"]
+        ["Ik ben bezig met", "", "Ik ben ergens mee bezig"]
+    ],
+    [
+        ["Cause", "", "The rain was the reason for my wet clothes"],
+        ["Aanleiding", "", "De regen was de aanleiding voor mijn natte kleren"]
+    ],
+    [
+        ["Connect", "", "I would like to join your club."],
+        ["Aansluiten", "", "Ik wil graag bij jullie club aansluiten."]
+    ],
+    [
+        ["The number of", "", "The number of crimes has increased"],
+        ["Het aantal", "", "Het aantal misdrijven is toegenomen"]
     ]
 ];
