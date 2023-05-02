@@ -350,5 +350,37 @@ const flashCards = [
     [
         ["Take the train", "", "I took the train to work"],
         ["Neem de trein", "", "Ik nam de trein naar mijn werk"]
+    ],
+    [
+        ["Measures", "", "We need to take some measure to ensure this doesn't happen again"],
+        ["Maatregelen", "", "We moeten maatregelen nemen om ervoor te zorgen dat dit niet meer gebeurt"]
+    ],
+    [
+        ["Shall we", "", "shall we go to the bar"],
+        ["Zullen we", "", "zullen we naar de bar gaan"]
+    ],
+    [
+        ["Every time ", "", "Every time you do that, it doesn't work"],
+        ["Elke keer", "", "Elke keer dat je dat doet, werkt het niet"]
+    ],
+    [
+        ["Its time", "", "Its time to leave"],
+        ["Het is tijd", "", "Het is tijd om te gaan"]
+    ],
+    [
+        ["I'm busy with", "", "I'm busy with something"],
+        ["Ik ben bezig met", "", "Ik ben ergens mee bezig"]
+    ],
+    [
+        ["Cause", "", "The rain was the reason for my wet clothes"],
+        ["Aanleiding", "", "De regen was de aanleiding voor mijn natte kleren"]
+    ],
+    [
+        ["Connect", "", "I would like to join your club."],
+        ["Aansluiten", "", "Ik wil graag bij jullie club aansluiten."]
+    ],
+    [
+        ["The number of", "", "The number of crimes has increased"],
+        ["Het aantal", "", "Het aantal misdrijven is toegenomen"]
     ]
 ];
