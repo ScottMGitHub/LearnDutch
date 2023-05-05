@@ -34,9 +34,9 @@ preposities.sort((a, b) => a[1].localeCompare(b[1]));
 preposities.forEach(prepositionExample => {
     console.log(prepositionExample)
     content += `<div class="word-row">`;
-    content += `<div class="word-cell">${prepositionExample[0]}</div>`;
-    content += `<div class="word-cell">${prepositionExample[1]}</div>`;
-    content += `<div class="word-cell">${prepositionExample[2]}</div>`;
+    content += `<div class="word-cell--30">${prepositionExample[0]}</div>`;
+    content += `<div class="word-cell--30">${prepositionExample[1]}</div>`;
+    content += `<div class="word-cell--30">${prepositionExample[2]}</div>`;
     content += `</div>`;
 });
 wordList.innerHTML = content;

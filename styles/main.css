@@ -2,7 +2,7 @@ body {
   top: 0;
   bottom: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header {
@@ -11,25 +11,21 @@ header {
   padding: 5px 0;
   height: 50px;
 }
-
 header .inner-wrapper {
   width: 80%;
   margin: 0 auto;
 }
-
 @media only screen and (max-width: 800px) {
   header .inner-wrapper {
     width: 90%;
   }
 }
-
 header h1 {
   padding: 0;
   margin: 0;
   float: left;
   line-height: 50px;
 }
-
 @media only screen and (max-width: 800px) {
   header h1 {
     width: 90%;
@@ -38,26 +34,22 @@ header h1 {
     font-size: 18px;
   }
 }
-
 header .navigation {
   float: right;
   line-height: 50px;
 }
-
 @media only screen and (max-width: 800px) {
   header .navigation {
     float: none;
     line-height: unset;
   }
 }
-
 header .navigation a {
   text-decoration: none;
   color: #ececec;
   font-weight: bold;
   margin-left: 15px;
 }
-
 @media only screen and (max-width: 800px) {
   header .navigation a {
     font-size: 10px;
@@ -65,7 +57,6 @@ header .navigation a {
     margin-left: 0;
   }
 }
-
 header .navigation a:hover {
   color: black;
 }
@@ -74,32 +65,27 @@ main {
   width: 80%;
   margin: 20px auto 50px auto;
 }
-
 @media only screen and (max-width: 800px) {
   main {
     width: 90%;
   }
 }
-
 main .quiz-wrapper .question-wrapper p {
   font-weight: bold;
   color: #707070;
   margin-bottom: 20px;
 }
-
 main .quiz-wrapper .question-wrapper p .question-word {
   font-size: 18px;
   margin-bottom: 0;
   color: #1f1e1e;
   margin-top: 0;
 }
-
 main .quiz-wrapper .question-wrapper p .question-tense {
   color: #008b8b;
   font-size: 18px;
   margin-top: 0;
 }
-
 main .quiz-wrapper .answer-wrapper .answer-field {
   display: inline-block;
   padding: 5px;
@@ -108,57 +94,44 @@ main .quiz-wrapper .answer-wrapper .answer-field {
   font-size: 16px;
   margin-right: 10px;
 }
-
 @media only screen and (max-width: 800px) {
   main .quiz-wrapper .answer-wrapper .answer-field {
     width: 100%;
     margin-right: 0;
   }
 }
-
 main .quiz-wrapper .answer-wrapper .multiple-choice-options-wrapper {
   margin-top: 10px;
 }
-
 main .quiz-wrapper .answer-wrapper .multiple-choice-options-wrapper label {
   margin-left: 5px;
 }
-
 main .quiz-wrapper .answer-wrapper .result {
   display: inline-block;
   font-weight: bold;
 }
-
 @media only screen and (max-width: 800px) {
   main .quiz-wrapper .answer-wrapper .result {
     height: 35px;
     line-height: 30px;
   }
 }
-
 main .quiz-wrapper .answer-wrapper .result .result-success {
   color: green;
 }
-
 main .quiz-wrapper .answer-wrapper .result .result-fail {
   color: red;
 }
-
 main .quiz-wrapper .submit-wrapper {
   margin-top: 20px;
 }
-
 @media only screen and (max-width: 800px) {
   main .quiz-wrapper .submit-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     margin-top: 0;
   }
 }
-
 main .quiz-wrapper .submit-wrapper .check-answer-button {
   border-radius: 5px;
   background-color: #008b8b;
@@ -168,18 +141,15 @@ main .quiz-wrapper .submit-wrapper .check-answer-button {
   padding: 8px 15px;
   cursor: pointer;
 }
-
 main .quiz-wrapper .submit-wrapper .check-answer-button:hover {
   opacity: 0.9;
 }
-
 @media only screen and (max-width: 800px) {
   main .quiz-wrapper .submit-wrapper .check-answer-button {
     width: 48%;
     margin-right: 2%;
   }
 }
-
 main .quiz-wrapper .submit-wrapper .refresh-button {
   border-radius: 5px;
   background-color: #707070;
@@ -189,87 +159,71 @@ main .quiz-wrapper .submit-wrapper .refresh-button {
   padding: 8px 15px;
   cursor: pointer;
 }
-
 main .quiz-wrapper .submit-wrapper .refresh-button:hover {
   opacity: 0.9;
 }
-
 @media only screen and (max-width: 800px) {
   main .quiz-wrapper .submit-wrapper .refresh-button {
     width: 48%;
     margin-left: 2%;
   }
 }
-
 main .prepositie-wrapper {
   margin-top: 20px;
   width: 30%;
   display: inline-block;
 }
-
 @media only screen and (max-width: 800px) {
   main .prepositie-wrapper {
     width: 100%;
   }
 }
-
 main .prepositie-wrapper h3 {
   color: #008b8b;
 }
-
 main .prepositie-wrapper p {
   color: #707070;
 }
-
 main .word-list-wrapper {
   margin: 50px auto 50px auto;
   border: 1px solid #222222;
 }
-
 main .word-list-wrapper .word-list-wrapper-header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   font-weight: bold;
 }
-
 main .word-list-wrapper .word-list-wrapper-header .word-row {
   background-color: #008b8b;
   color: #ececec;
 }
-
 main .word-list-wrapper .word-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   color: #303030;
 }
-
 main .word-list-wrapper .word-row:nth-child(even) {
   background-color: #ececec;
 }
-
-main .word-list-wrapper .word-row .word-cell {
+main .word-list-wrapper .word-row .word-cell, main .word-list-wrapper .word-row .word-cell--30 {
   width: 20%;
   font-size: 16px;
   padding: 5px;
 }
-
 @media only screen and (max-width: 800px) {
-  main .word-list-wrapper .word-row .word-cell {
+  main .word-list-wrapper .word-row .word-cell, main .word-list-wrapper .word-row .word-cell--30 {
     font-size: 12px;
   }
 }
-
+main .word-list-wrapper .word-row .word-cell--30 {
+  width: 30%;
+}
 main .phrase-wrapper table {
   width: 100%;
   max-width: 600px;
   border: 1px solid #008b8b;
   border-spacing: 0;
 }
-
 main .phrase-wrapper table th {
   background-color: #008b8b;
   border: 1px solid #008b8b;
@@ -277,88 +231,69 @@ main .phrase-wrapper table th {
   padding: 5px;
   color: white;
 }
-
 main .phrase-wrapper table td {
   text-align: center;
   border: 1px solid #ececec;
   padding: 5px;
 }
-
 main .flash-cards-wrapper {
   margin-top: 20px;
   width: 30%;
   position: relative;
 }
-
 @media only screen and (max-width: 800px) {
   main .flash-cards-wrapper {
     width: 100%;
   }
 }
-
 main .flash-cards-wrapper .card-wrapper {
   min-height: 250px;
 }
-
 main .flash-cards-wrapper .card-wrapper .card {
   color: white;
   width: 350px;
   text-align: center;
 }
-
 main .flash-cards-wrapper .card-wrapper .card .card-front {
   background-color: #008b8b;
   border-radius: 10px;
   padding: 40px 0 40px;
-  -webkit-box-shadow: black 2px 2px 5px;
-          box-shadow: black 2px 2px 5px;
+  box-shadow: black 2px 2px 5px;
 }
-
 main .flash-cards-wrapper .card-wrapper .card .card-back {
   background-color: #4B0082;
   border-radius: 10px;
   padding: 40px 0 40px;
-  -webkit-box-shadow: black 2px 2px 5px;
-          box-shadow: black 2px 2px 5px;
+  box-shadow: black 2px 2px 5px;
 }
-
 main .flash-cards-wrapper .card-wrapper .card .hide {
   display: none;
 }
-
 @media only screen and (max-width: 800px) {
   main .flash-cards-wrapper .card-wrapper .card {
     width: 100%;
   }
 }
-
 main .flash-cards-wrapper .card-wrapper .card h2 {
   padding: 0;
   margin: 0 10px;
   font-size: 40px;
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
-  /* Enable automatic hyphenation */
-  overflow-wrap: break-word;
-  /* Fallback option */
+          hyphens: auto; /* Enable automatic hyphenation */
+  overflow-wrap: break-word; /* Fallback option */
 }
-
 main .flash-cards-wrapper .card-wrapper .card p {
   padding: 0;
   margin: 0;
 }
-
 main .flash-cards-wrapper .card-wrapper .card p.sentence {
   margin: 45px 15px 0;
   font-style: italic;
 }
-
 main .flash-cards-wrapper .submit-wrapper {
   height: 50px;
   margin-top: 30px;
 }
-
 main .flash-cards-wrapper .submit-wrapper .refresh-button {
   border-radius: 5px;
   background-color: #707070;
@@ -369,14 +304,11 @@ main .flash-cards-wrapper .submit-wrapper .refresh-button {
   cursor: pointer;
   width: 350px;
 }
-
 main .flash-cards-wrapper .submit-wrapper .refresh-button:hover {
   opacity: 0.9;
 }
-
 @media only screen and (max-width: 800px) {
   main .flash-cards-wrapper .submit-wrapper .refresh-button {
     width: 100%;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
