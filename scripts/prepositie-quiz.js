@@ -2,16 +2,16 @@ let expectedPreposition = "";
 
 const refresh = () => {
     var randomExample = preposities[Math.floor(Math.random()*preposities.length)];
-    expectedPreposition = randomExample[1];
+    expectedPreposition = randomExample[2];
     const regex = new RegExp(expectedPreposition, 'gi');
-    const exampleQuestion = randomExample[2].replace(regex, "____");
+    const exampleQuestion = randomExample[0].replace(regex, "____");
 
     var question = document.getElementsByClassName("question-word")[0];
     question.innerHTML = `${exampleQuestion}`;
 
 
     var translation = document.getElementsByClassName("question-tense")[0];
-    translation.innerHTML = `(${randomExample[3]})`;
+    translation.innerHTML = `(${randomExample[1]})`;
 
     // Clear
     var answer = document.getElementById("answer");
@@ -34,9 +34,9 @@ preposities.sort((a, b) => a[1].localeCompare(b[1]));
 preposities.forEach(prepositionExample => {
     console.log(prepositionExample)
     content += `<div class="word-row">`;
+    content += `<div class="word-cell">${prepositionExample[0]}</div>`;
     content += `<div class="word-cell">${prepositionExample[1]}</div>`;
     content += `<div class="word-cell">${prepositionExample[2]}</div>`;
-    content += `<div class="word-cell">${prepositionExample[3]}</div>`;
     content += `</div>`;
 });
 wordList.innerHTML = content;
