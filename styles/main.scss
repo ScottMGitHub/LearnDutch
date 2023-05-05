@@ -218,9 +218,14 @@ main{
                 @media only screen and (max-width: $mobile) {
                     font-size: 12px;
                 }
+                &--30 {
+                    @extend .word-cell;
+                    width:30%;
+                }
             }
         }
     }
+
 
     .phrase-wrapper {
         table{
