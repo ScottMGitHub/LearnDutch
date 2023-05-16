@@ -89,11 +89,11 @@ const flashCards = [
     ],
     [
         ["Brave", "Bravely", "He is very brave"],
-        ["Moedig", "Dapper", "Hij is erg moedig"]
+        ["Moedig", "Moedig", "Hij is erg moedig"]
     ],
     [
         ["Well behaved", "", "He is a well behaved dog"],
-        ["Braaf", "", "Hij is een braaf hond"]
+        ["Braaf", "", "Hij is een brave hond"]
     ],
     [
         ["Cheeky", "", "Don't be cheeky"],
@@ -101,7 +101,7 @@ const flashCards = [
     ],
     [
         ["Rude", "Rudely", "He is very rude"],
-        ["Onbeleefd", "Grof", "Hij is erg onbeleefd"]
+        ["Onbeleefd", "Onbeleefd", "Hij is erg onbeleefd"]
     ],
     [
         ["Tacky/Vulgar", "", "I find it quite vulgar."],
@@ -112,7 +112,7 @@ const flashCards = [
         ["Behoorlijk", "", "Het was behoorlijk druk in de stad vandaag."]
     ],
     [
-        ["The ankle", "Ankle", "My ankle is sprained"],
+        ["The ankle", "Ankles", "My ankle is sprained"],
         ["De enkel", "Enkels", "Mijn enkel is verstuikt"]
     ],
     [
@@ -228,8 +228,8 @@ const flashCards = [
         ["Het glas", "", "Het glas en de mok"]
     ],
     [
-        ["The plate", "", "the plate and the bowl"],
-        ["Het boord", "", "het bord en de kom"]
+        ["The plate", "", "The plate and the bowl"],
+        ["Het boord", "", "Het bord en de kom"]
     ],
     [
         ["Chopping", "Chopped", "he is busy chopping onions"],
@@ -290,10 +290,6 @@ const flashCards = [
     [
         ["Nevertheless", "", "Nevertheless, I am going to the gym tonight."],
         ["Hoe dan ook", "", "Hoe dan ook, ga ik vanavond naar de sportschool."]
-    ],
-    [
-        ["Spend time", "", "I don't want to spend anymore time on this."],
-        ["Tijd besteden", "", "Ik wil hier geen tijd meer aan besteden."]
     ],
     [
         ["Spend time", "", "I don't want to spend anymore time on this."],
